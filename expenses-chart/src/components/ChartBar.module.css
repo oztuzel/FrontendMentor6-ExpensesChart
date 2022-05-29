@@ -1,0 +1,47 @@
+.chartBar{
+  
+  height: 100%;
+  align-items: center;
+}
+
+.chartBarInner {
+  height: 100%;
+  width: 100%;
+  
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.chartBarFill {
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 5px 5px 0px 0px;
+  width: 50px;
+  margin-left: 20px;
+}
+
+.chartBarFill:hover{
+  background-color: hsl(186, 34%, 60%);
+  transition: all 0.3s ease-out;
+}
+
+.label{
+  color: hsl(28, 10%, 53%);
+  margin-left: 20px;
+}
+
+.value {
+  position: absolute;
+  top:-40px;
+  margin-left: 20px;
+  border: 2px solid;
+  border-radius: 5px;
+  background-color: black;
+  color: azure;
+  height: 30px;
+  width: 50px;
+  text-align: center;
+  justify-content: center;
+}

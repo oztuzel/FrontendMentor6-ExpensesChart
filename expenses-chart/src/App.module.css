@@ -1,0 +1,83 @@
+.app {
+  display: flex;
+  flex-direction: column ;
+  
+}
+
+.balance {
+  background-color: hsl(10, 79%, 65%);
+  color: hsl(33, 100%, 98%);
+  width:36em;
+  position: relative;
+  top:10rem;
+  left: 38rem;
+  border-radius: 20px;
+  height: 8rem;
+}
+
+.balance p {
+  color:hsl(27, 66%, 92%);
+  padding-left: 45px;
+  padding-top: 10px;
+}
+
+.balance h1 {
+  padding-left: 45px;
+  margin-top: -10px;
+}
+
+.logo {
+  position: relative;
+  left:28rem;
+  top: -5rem;
+}
+
+.card {
+  position: relative;
+  top:12rem;
+  left:38rem;
+  background-color: hsl(33, 100%, 98%);
+  border-radius: 20px;
+  width: 36em;
+  height: 30rem;
+}
+
+.cardDiv {
+  padding-left: 45px;
+}
+
+.lower {
+  position: absolute;
+  top:20rem;
+  left:40px;
+  font-size: 22px;
+}
+
+.lower h1 {
+  top: 20px;
+  position: absolute;
+}
+.percentage {
+  left:20rem;
+  top:35px;
+  position: absolute;
+  width: 150px;
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.p{
+  left:20rem;
+  top:60px;
+  position: absolute;
+  width: 150px;
+  text-align: right;
+  font-size: 18px;
+  color: hsl(28, 10%, 53%);
+}
+
+.total{
+  color: hsl(28, 10%, 53%);
+  font-size: 18px;
+}
